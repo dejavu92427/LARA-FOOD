@@ -28,5 +28,5 @@ Route::view('/login', 'member.login');
 Route::view('/myDetail', 'member.myDetail');
 Route::view('/myPublish', 'member.myPublish');
 
-// Route::view('/myReservations', 'member.myReservations');
+// Route::view('/myReservations', 'member.myReservations')
 Route::resource('myReservations', 'App\Http\Controllers\ReservationController');
